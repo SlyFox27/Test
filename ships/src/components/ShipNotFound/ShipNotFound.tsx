@@ -1,9 +1,11 @@
 import { FC } from "react";
 
-export const ShipNotFound: FC = () => {
+const ShipNotFound: FC = () => {
     return (
-        <div className="mt-28">
+        <div className="mt-44">
             <h2 className="text-center">No Ships Matching Your Criteria</h2>
         </div>
     );
 };
+
+export default ShipNotFound;

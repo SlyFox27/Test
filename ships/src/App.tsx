@@ -1,13 +1,12 @@
 import "./App.css";
+import ShipPage from "./components/ShipPage/ShipPage";
 
-import ShipList from "./components/ShipList/ShipList";
-
-function App() {
+const App = () => {
     return (
         <div className="App">
-            <ShipList />
+            <ShipPage />
         </div>
     );
-}
+};
 
 export default App;
